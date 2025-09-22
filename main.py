@@ -104,6 +104,6 @@ if __name__ == "__main__":
         ACCOUNT = config["ACCOUNT"]
         PASSWORD = config["PASSWORD"]
         # TARGET_STEPS = random.randrange(8024,15283)
-        TARGET_STEPS = 8765
+        TARGET_STEPS = 9765
         result = call_zepp_life_js(ACCOUNT, PASSWORD, TARGET_STEPS)
         print(json.dumps(result, indent=2, ensure_ascii=False))
